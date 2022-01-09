@@ -2,7 +2,7 @@ from flask import Flask, jsonify, request
 
 app = Flask(__name__)
 
-balance = "0"
+balance = 0
 
 @app.route('/')
 def index():
