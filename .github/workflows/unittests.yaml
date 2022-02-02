@@ -1,5 +1,5 @@
 name: Continuous Integration
-on: [push]
+on: [push, pull_requests]
 jobs:
   build:
     runs-on: ubuntu-latest
