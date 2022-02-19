@@ -31,4 +31,4 @@ App relies on a global in-memory variable (`balance`) to store the balance of th
 
 3. .gitignore: Refer to the gitignore article for more details. In short, this file makes it possible that local configuration or binary files are not pushed to the repository. 
 
-4. tests: It's a directory that includes several unit tests for the APIs. The tests utilize the PyTest library.
+4. tests: It's a directory that includes several unit tests for the APIs. The tests utilize the PyTest library. Making a change to test things.
