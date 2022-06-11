@@ -5,7 +5,7 @@ def test_balance(app, client):
     res = client.get('/')
     assert res.status_code == 200
     expected = {'balance': 0}
-    assert expected == json.loads(res.get_data(as_text=True))
+    assert expected == json.loads(res.get_data(as_text=False))
 
 def test_deposit(app, client):
     del app
