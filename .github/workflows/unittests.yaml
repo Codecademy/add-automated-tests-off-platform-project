@@ -1,4 +1,4 @@
-name: Continuous Integration
+adaname: Continuous Integration
 on: [push]
 jobs:
   build:
