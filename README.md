@@ -22,7 +22,7 @@ python app.py
 ## Code Description
 
 1. app.py: A flask application that exposes the following API endpoints: 
-  - index at / : Retun a JSON data structure indicating the current balance. 
+  - index at / : Return a JSON data structure indicating the current balance. 
   - deposit at /deposit : Take the deposit amount as a URL parameter and return the new balance after adding the amount. 
   - withdraw at /withdraw : Take the withdrawal amount as a URL parameter and return the new balance after subtracting the amount. 
 App relies on a global in-memory variable (`balance`) to store the balance of the account.
