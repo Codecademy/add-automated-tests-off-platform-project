@@ -8,8 +8,9 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: python-3.12.0-rc.3-darwin-x64.tar.gz
+          python-version: 3.10.0
           architecture: x64
+          node-version: 16
       - name: Install dependencies
         run: pip install -r requirements.txt 
       - name: Run Tests
