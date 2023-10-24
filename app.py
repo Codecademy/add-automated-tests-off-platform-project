@@ -17,6 +17,7 @@ def deposit():
 
 @app.route('/withdraw')
 def withdraw():
+    # Some descriptive comment
     global balance
     amount = request.args.get('amount')
     if(int(amount) > balance):
