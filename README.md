@@ -1,4 +1,4 @@
-# BankAccount
+# BankAccoun
 This is an educational public repository to illustrate the power of automated testing through Github Actions.
 
 ## Run locally
