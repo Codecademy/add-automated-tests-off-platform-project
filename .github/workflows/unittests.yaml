@@ -1,0 +1,16 @@
+name: Continuous Integration
+on: [push]                # Runs this workflow on every push
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2   # Checks out your repository
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.12.0
+          architecture: x64
+      - name: Install dependencies
+        run: pip install -r requirements.txt  # Installs dependencies
+      - name: Run Tests
+        run: python -m pytest                 # Runs your tests
