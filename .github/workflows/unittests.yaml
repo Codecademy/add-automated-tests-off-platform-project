@@ -3,6 +3,8 @@ name: Continuous Integration
 on:
   push:
     branches: [ main, add-auto-tests ]
+  pull_request:
+    branches: [ main ]
 
 jobs:
   build:
