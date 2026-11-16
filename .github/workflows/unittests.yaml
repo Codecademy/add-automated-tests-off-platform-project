@@ -8,8 +8,8 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: 3.13.9
-          architecture: x64
+          python-version: '3.xx'
+          architecture: <armx64|x86>
       - name: Install dependencies
         run: pip install -r requirements.txt 
       - name: Run Tests
